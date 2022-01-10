@@ -20,7 +20,7 @@
     }
     
     .column {
-        flex: 33.33%;
+        display: flex;
         padding: 5px;
     }
     
