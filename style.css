@@ -1,6 +1,6 @@
     body {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
+        font-size: 22px;
         background-color: black;
         color: white;
     }
@@ -94,21 +94,23 @@
     }
     
     .info-instructions {
-        font-size: large;
+        font-size: x-large;
         font-weight: bold;
-        text-align: left;
-        color: rgb(105, 112, 105);
+        text-align: center;
+        color: rgb(27, 139, 27);
     }
     
     .info-instructions .button {
         border: 1px solid rgba(255, 255, 255, 0.678);
+        font-size: large;
         padding: 5px;
         color: white;
+        background-color: black;
         font-style: italic;
     }
     
     .warning-instructions {
-        font-size: large;
+        font-size: x-large;
         font-weight: bold;
         text-align: center;
         color: red;
