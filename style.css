@@ -15,13 +15,22 @@ h1 {
     font-size: x-large;
 }
 
-.row {
-    display: flex;
-}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
 
 .column {
-    justify-content: flex-start;
-    padding: 5px;
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+
+/* Clear floats after image containers */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .header {
