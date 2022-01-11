@@ -15,22 +15,13 @@ h1 {
     font-size: x-large;
 }
 
-
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
+.row {
+    display: flex;
 }
 
-
-/* Clear floats after image containers */
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+.column {
+    flex: 33.33%;
+    padding: 5px;
 }
 
 .header {
@@ -110,16 +101,16 @@ h1 {
     color: rgb(27, 139, 27);
 }
 
-.button {
+button.button {
     border: 1px solid rgba(255, 255, 255, 0.678);
-    font-size: large;
-    padding: 8px 10px 8px 10px;
+    display: block;
+    font-size: x-large;
+    padding: 8px 12px;
     color: white;
     background-color: rgb(68, 67, 67);
     font-style: italic;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    border-radius: 5px;
 }
 
 .warning-instructions {
