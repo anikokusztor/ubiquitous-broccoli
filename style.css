@@ -101,7 +101,7 @@ h1 {
     color: rgb(27, 139, 27);
 }
 
-.button {
+.info-instructions .button {
     border: 1px solid rgba(255, 255, 255, 0.678);
     font-size: large;
     padding: 5px;
