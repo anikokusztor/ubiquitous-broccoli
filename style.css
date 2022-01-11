@@ -108,7 +108,8 @@ h1 {
     color: white;
     background-color: rgb(68, 67, 67);
     font-style: italic;
-    align-self: center;
+    display: flex;
+    align-items: center;
 }
 
 .warning-instructions {
